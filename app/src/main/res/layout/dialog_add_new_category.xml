@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="300dp"
+    android:layout_height="200dp">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the name of Categoty"
+        android:id="@+id/etNewCategoryName"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/tvNewCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etNewCategoryName"
+        android:layout_marginTop="20dp"
+        android:text="SELECT CATEGORY TYPE"
+        android:textSize="20sp"/>
+
+    <RadioGroup
+        android:id="@+id/radioCategory"
+        android:layout_below="@+id/tvNewCategory"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:id="@+id/radioExpense"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Expense"
+            android:checked="true" />
+
+        <RadioButton
+            android:id="@+id/radioIncome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Income" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnSaveNewCategoty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/radioCategory"
+        android:layout_gravity="bottom"
+        android:text="SAVE"
+        android:background="#0000FF"
+        android:textColor="#FFFFFF"
+        android:layout_marginLeft="210dp"
+        />
+    <!--LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/dtDueDate">
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:text="Save"
+            />
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            />
+
+    </LinearLayout-->
+
+
+
+</RelativeLayout>

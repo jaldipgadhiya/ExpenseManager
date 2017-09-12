@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+	    
+
+	<SwitchPreference android:key="showBalSwitch"
+		android:title="Show Balance View"
+        android:summaryOn="ON"
+        android:summaryOff="OFF">
+
+	</SwitchPreference>
+
+	<ListPreference
+		android:key="lp_list_preference"
+		android:title="Default View"
+		android:summary="Single-Column"
+		android:entries="@array/array_list_preference_entries"
+		android:entryValues="@array/array_list_preference_entry_values"
+		/>
+
+	<ListPreference
+		android:key="lp_currency_list_preference"
+		android:title="Currency Format"
+		android:summary="Lakh"
+		android:entries="@array/array_currency_list_preference_entries"
+		android:entryValues="@array/array_currency_list_preference_entry_values"
+		/>
+
+	<Preference
+		android:key="lp_manage_categories"
+		android:title="Manage Categories" />
+
+	<Preference
+		android:key="lp_about"
+		android:title="About" />
+    
+    
+</PreferenceScreen>

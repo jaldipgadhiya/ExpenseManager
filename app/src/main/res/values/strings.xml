@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">ExpenseManager</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+    <string-array name="array_list_preference_entries">
+        <item>Single-Column</item>
+        <item>Double-Column</item>
+    </string-array>
+
+    <string-array name="array_list_preference_entry_values">
+    <item>Single-Column</item>
+    <item>Double-Column</item>
+    </string-array>
+
+    <string-array name="array_currency_list_preference_entries">
+        <item>Lakh</item>
+        <item>Thosand</item>
+    </string-array>
+
+    <string-array name="array_currency_list_preference_entry_values">
+        <item>Lakh</item>
+        <item>Thosand</item>
+    </string-array>
+</resources>
+
+
